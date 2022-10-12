@@ -1,0 +1,177 @@
+import Foundation
+
+//var a = 50
+//for i in stride(from:1, to:a, by:2){
+//print(i)
+//}
+
+//var names=["rohan","Abhi","raju","harry",""]
+//for name in names {
+//print(name," ")
+//}
+
+//print("Enter two numbers")
+//let a = readLine()
+//var b = readLine()
+//print(a)
+
+//let char="z"
+//switch char {
+//case "a","e","i","o","u":
+//print("char found!")
+//default:
+//print("Not found")
+//}
+
+
+/*func drive(){
+        print("The \(year) \(make) \(model) is moving")
+    }
+    func park(){
+        print("The \(year) \(make) \(model) is parked")
+    }
+}
+let firstCar = Car(make: "Honda", model: "Civic", year: 2010,topSpeed: 120)
+let secondCar = Car(make: "Ford", model: "Fusion", year: 2013,topSpeed: 125)
+
+firstCar.startEngine()
+firstCar.drive()*/
+
+
+/*struct Size {
+    var width: Double
+    var height: Double
+    
+    func area() -> Double {
+        return (width*height)
+    }
+}
+let someSize = Size(width: 10, height: 5)
+let area = someSize.area()
+print("\(area)")*/
+
+
+/*struct Temperature {
+    var celsius: Double
+    var fahrenheit: Double {
+        celsius * 1.8 + 32
+    }
+    
+    var kelvin: Double {
+        celsius + 273.15
+    }
+}
+let currentTemperature = Temperature(celsius: 0)
+print(currentTemperature.fahrenheit)
+ print(currentTemperature.kelvin)*/
+
+
+/*struct Temperature {
+    var celsius:  = Double
+    init(celsius: Double){
+        self.celsius = celsius
+    }
+    init(fahrenheit: Double) {
+        celsius = (fahrenheit - 32) / 1.8
+        
+    }
+    
+}
+let currentTemperature = Temperature(celsius: 18.5)
+let boiling = Temperature(fahrenheit: 212)
+print(currentTemperature.celsius)
+print(boiling.celsiu)
+if let str=readLine(){
+    print(str)
+}*/
+
+
+
+
+/*struct Car {
+ var make: String
+ var model: String
+ var year: Int
+ var topSpeed: Int
+ 
+ func startEngine() {
+ print("The \(year) \(make) \(model) engine has started")*/
+
+
+/*var a: Int = 0
+var b: Int = 1
+var c: Int = 0
+var n: Int = 9
+print("\(a) \(b)", terminator)
+for in 3...n
+{
+    c=a+b
+    print("\(c)",terminator)
+    a=b
+    b=c
+    c=0
+}*/
+    
+
+/*var str: String = "karthik"
+str = str.lowerCased()
+var ch1,ch2,ch3: Character
+ch3 = "\0"
+var Count: Int = 0
+for ch in str
+{
+    for ch2 in str
+    {
+        if ch1==ch2
+        {
+            count+=1
+        }
+        if Count = 2
+        {
+            ch3=ch1
+            break
+        }
+        if count =2
+        {
+            break
+        }
+        else
+        {
+            count = 0
+        }
+        if count==2
+        {
+            print("first reccuring character is \(ch3)")
+        }
+        else
+        {
+            print("no character has reccured")
+        }*/
+
+
+
+/*class Person {
+    let name: String
+    init(name: String) {
+        self.name = name
+    }
+    func sayHello() {
+        print("Hello, there!")
+    }
+}
+let person = Person(name: "Jasmine")
+print(person.name)
+person.sayHello()*/
+
+
+/*class Car: vehicle {
+    var gear = 1
+    override var description: String {
+        super.description + " in gear \(gear)"
+    }
+}
+let car = Car()
+car.currentSpeed = 25
+car.gear = 3
+print("Car: \(car.description)")*/
+
